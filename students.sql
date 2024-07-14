@@ -1,0 +1,21 @@
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(10),
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    student_id CHAR(5),
+    national_id VARCHAR(13),
+    address TEXT,
+    date_of_birth DATE,
+    gender ENUM('Male', 'Female', 'Other'),
+    email VARCHAR(100),
+    phone_number VARCHAR(20),
+    emergency_contact_name VARCHAR(50),
+    emergency_contact_phone VARCHAR(20),
+    guardian_name VARCHAR(50),
+    guardian_relation VARCHAR(50),
+    guardian_phone VARCHAR(20),
+    school_name VARCHAR(100),
+    school_grade VARCHAR(20),
+    health_condition TEXT
+);
